@@ -57,6 +57,12 @@
                         <span>Dashboard</span>
                     </a>
                 </li>
+                <li class="sidebar-item {{ Str::contains($currentUrl, '/pendaftaran') ? 'active' : '' }} ">
+                    <a href="{{ url('admin/pendaftaran') }}" class='sidebar-link'>
+                       <i class="bi bi-database-add"></i>
+                        <span>Data Pendaftaran</span>
+                    </a>
+                </li>
 
                 {{-- master data --}}
                 <li

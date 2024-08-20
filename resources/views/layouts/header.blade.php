@@ -28,6 +28,7 @@
           </li>
           <li><a href="{{ url('galeri') }}" class="{{ Str::contains($currentUrl, 'galeri') ? 'active' : '' }}">Galeri</a></li>
           <li><a href="{{ url('contact') }}" class="{{ Str::contains($currentUrl, 'contact') ? 'active' : '' }}">Contact</a></li>
+          <li><a href="{{ url('daftar') }}" class="{{ Str::contains($currentUrl, 'daftar') ? 'active' : '' }}">Daftar Online</a></li>
         </ul>
       </nav><!-- .navbar -->
 
